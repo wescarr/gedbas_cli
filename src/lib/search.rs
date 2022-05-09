@@ -49,7 +49,7 @@ mod tests {
 
 #[instrument]
 pub fn perform_search(lastname: &str, limit: usize, firstname: Option<String>) -> Vec<Person> {
-    let rows = get_results(lastname, limit, &firstname.unwrap_or("".to_string()));
+    let rows = get_results(lastname, limit, &firstname.unwrap_or_else(|| "".to_string()));
 
     rows.par_iter()
         .filter_map( get_person)

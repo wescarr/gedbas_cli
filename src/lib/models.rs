@@ -7,7 +7,7 @@ pub struct PersonRow {
     pub lastname: String,
 }
 
-#[derive(Serialize, Debug)]
+#[derive(Serialize, Debug,PartialEq, Eq,Hash)]
 pub struct Person {
     pub person_id: String,
     pub firstname: String,
@@ -16,7 +16,7 @@ pub struct Person {
     pub sources: Vec<Source>
 }
 
-#[derive(Serialize, Debug)]
+#[derive(Serialize, Debug,PartialEq, Eq,Hash)]
 pub struct Event {
     pub event_type: String,
     pub timestamp: String,
@@ -24,7 +24,7 @@ pub struct Event {
     pub sources: Vec<usize>,
 }
 
-#[derive(Serialize, Debug)]
+#[derive(Serialize, Debug,PartialEq, Eq,Hash)]
 pub struct Source {
     pub num: usize,
     pub description: String
