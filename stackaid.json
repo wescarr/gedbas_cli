@@ -1,4 +1,249 @@
 {
   "version": 1,
-  "dependencies": []
+  "dependencies": [
+    {
+      "source": "https://github.com/clap-rs/clap",
+      "dependencies": [
+        {
+          "source": "https://github.com/softprops/atty"
+        },
+        {
+          "source": "https://github.com/rust-lang/backtrace-rs"
+        },
+        {
+          "source": "https://github.com/wenyuzhao/Sophon"
+        },
+        {
+          "source": "https://github.com/tailhook/humantime"
+        },
+        {
+          "source": "https://github.com/matklad/once_cell"
+        },
+        {
+          "source": "https://github.com/dtolnay/rustversion"
+        },
+        {
+          "source": "https://github.com/comex/rust-shlex"
+        },
+        {
+          "source": "https://github.com/assert-rs/trycmd"
+        },
+        {
+          "source": "https://github.com/crypto-com/sgx-vendor"
+        },
+        {
+          "source": "https://github.com/dguo/strsim-rs"
+        },
+        {
+          "source": "https://github.com/jquepi/termcolor"
+        },
+        {
+          "source": "https://github.com/eminence/terminal-size"
+        },
+        {
+          "source": "https://github.com/dtolnay/trybuild"
+        },
+        {
+          "source": "https://github.com/open-i18n/rust-unic"
+        },
+        {
+          "source": "https://github.com/seanmonstar/unicase"
+        },
+        {
+          "source": "https://github.com/unicode-rs/unicode-width"
+        }
+      ]
+    },
+    {
+      "source": "https://github.com/yaahc/color-eyre",
+      "dependencies": [
+        {
+          "source": "https://github.com/rust-lang/backtrace-rs"
+        },
+        {
+          "source": "https://github.com/yaahc/color-spantrace"
+        },
+        {
+          "source": "https://github.com/yaahc/eyre"
+        },
+        {
+          "source": "https://github.com/yaahc/indenter"
+        },
+        {
+          "source": "https://github.com/matklad/once_cell"
+        },
+        {
+          "source": "https://github.com/jam1garner/owo-colors"
+        },
+        {
+          "source": "https://github.com/rust-pretty-assertions/rust-pretty-assertions"
+        },
+        {
+          "source": "https://github.com/dtolnay/thiserror"
+        },
+        {
+          "source": "https://github.com/tokio-rs/tracing"
+        },
+        {
+          "source": "https://github.com/servo/rust-url"
+        },
+        {
+          "source": "https://github.com/rustwasm/wasm-bindgen"
+        }
+      ]
+    },
+    {
+      "source": "https://github.com/crypto-com/sgx-vendor",
+      "dependencies": []
+    },
+    {
+      "source": "https://github.com/rayon-rs/rayon",
+      "dependencies": [
+        {
+          "source": "https://github.com/lemonrock/linux-support"
+        },
+        {
+          "source": "https://github.com/crossbeam-rs/crossbeam"
+        },
+        {
+          "source": "https://github.com/bluss/either"
+        },
+        {
+          "source": "https://github.com/crypto-com/sgx-vendor"
+        },
+        {
+          "source": "https://github.com/rust-random/rand"
+        },
+        {
+          "source": "https://github.com/rust-random/rngs"
+        }
+      ]
+    },
+    {
+      "source": "https://github.com/lorislibralato/mimo",
+      "dependencies": [
+        {
+          "source": "https://github.com/env-logger-rs/env_logger"
+        },
+        {
+          "source": "https://github.com/rust-lang/log"
+        },
+        {
+          "source": "https://github.com/matklad/once_cell"
+        },
+        {
+          "source": "https://github.com/serde-rs/serde"
+        },
+        {
+          "source": "https://github.com/serde-rs/json"
+        },
+        {
+          "source": "https://github.com/tokio-rs/tokio"
+        }
+      ]
+    },
+    {
+      "source": "https://github.com/causal-agent/scraper",
+      "dependencies": [
+        {
+          "source": "https://github.com/servo/rust-cssparser"
+        },
+        {
+          "source": "https://github.com/causal-agent/ego-tree"
+        },
+        {
+          "source": "https://github.com/rust-lang/getopts"
+        },
+        {
+          "source": "https://github.com/servo/html5ever"
+        },
+        {
+          "source": "https://github.com/lemonrock/linux-support"
+        },
+        {
+          "source": "https://github.com/Juliodvp29/Rust-learning"
+        },
+        {
+          "source": "https://github.com/typeling1578/Thunderfox"
+        },
+        {
+          "source": "https://github.com/servo/rust-smallvec"
+        },
+        {
+          "source": "https://github.com/servo/tendril"
+        }
+      ]
+    },
+    {
+      "source": "https://github.com/serde-rs/serde",
+      "dependencies": []
+    },
+    {
+      "source": "https://github.com/serde-rs/json",
+      "dependencies": [
+        {
+          "source": "https://github.com/dtolnay/automod"
+        },
+        {
+          "source": "https://github.com/lemonrock/linux-support"
+        },
+        {
+          "source": "https://github.com/dtolnay/indoc"
+        },
+        {
+          "source": "https://github.com/typeling1578/Thunderfox"
+        },
+        {
+          "source": "https://github.com/dtolnay/ref-cast"
+        },
+        {
+          "source": "https://github.com/dtolnay/rustversion"
+        },
+        {
+          "source": "https://github.com/serde-rs/serde"
+        },
+        {
+          "source": "https://github.com/dtolnay/serde-stacker"
+        },
+        {
+          "source": "https://github.com/dtolnay/trybuild"
+        }
+      ]
+    },
+    {
+      "source": "https://github.com/tokio-rs/tracing",
+      "dependencies": []
+    },
+    {
+      "source": "https://github.com/davidbarsky/tracing-tree",
+      "dependencies": [
+        {
+          "source": "https://github.com/lemonrock/linux-support"
+        },
+        {
+          "source": "https://github.com/assert-rs/assert_cmd"
+        },
+        {
+          "source": "https://github.com/softprops/atty"
+        },
+        {
+          "source": "https://github.com/rust-lang/glob"
+        },
+        {
+          "source": "https://github.com/rust-lang/log"
+        },
+        {
+          "source": "https://github.com/tokio-rs/tracing"
+        }
+      ]
+    },
+    {
+      "source": "https://github.com/abreis/tracing-unwrap",
+      "dependencies": [
+        {
+          "source": "https://github.com/tokio-rs/tracing"
+        }
+      ]
+    }
+  ]
 }
